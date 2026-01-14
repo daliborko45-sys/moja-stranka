@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osobná karta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+        }
+        
+        .container {
+            display: flex;
+            width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+        
+        .left {
+            width: 35%;
+            background: #f3f3f3;
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 1px solid #ddd;
+        }
+        
+        .left img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .left h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        
+        .left table {
+            width: 100%;
+            font-size: 14px;
+        }
+        
+        .left td {
+            padding: 4px 0;
+        }
+        
+        .left td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+        /* Right column */
+        
+        .right {
+            width: 65%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .right h1 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section h3 {
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .about-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        
+        .about-table td {
+            padding: 5px 10px;
+            vertical-align: top;
+        }
+        
+        .about-table td:first-child {
+            font-weight: bold;
+            width: 100px;
+        }
+        
+        .about-table td:nth-child(3) {
+            font-weight: bold;
+            width: 100px;
+        }
+        
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        
+        p {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- LEFT COLUMN -->
+        <div class="left">
+            <h1 style="font-size:24px; margin-bottom:20px;">RESUME</h1>
+            <h2>Professional Details</h2>
+            <img src="dušan.png" alt="Profilová fotka">
+
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>Dušan Goga</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>38 Years</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Rome, Italy</td>
+                </tr>
+                <tr>
+                    <td>Experience</td>
+                    <td>15 Years</td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td>MBA</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="right">
+            <div class="section">
+                <h1>About Me</h1>
+                <table class="about-table">
+                    <tr>
+                        <td>Name</td>
+                        <td>John Doe</td>
+                        <td>Age</td>
+                        <td>38 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td>Rome, Italy</td>
+                        <td>Experience</td>
+                        <td>15 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Degree</td>
+                        <td>MBA</td>
+                        <td>Career Level</td>
+                        <td>Mid-Level</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>(800) 123-4567</td>
+                        <td>Fax</td>
+                        <td>(800) 123-4568</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><a href="mailto:example@example.com">example@example.com</a></td>
+                        <td>Website</td>
+                        <td><a href="#">example.com</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h3>I’m Web Designer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
